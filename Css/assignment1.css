@@ -39,7 +39,17 @@ header{
     line-height: 152%;
 
 }
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
 .button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 12px 16px;
     background-color: #30B868;
     color: #ffffff;
@@ -47,10 +57,14 @@ header{
     font-size: 16px;
     border: none;
     border-radius: 4px;
-
+}
+.trn button{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 .button button:hover{
-    background-color: #28a75f;
+    
     cursor: pointer;
 }
 .section-container{
@@ -100,6 +114,67 @@ header{
     line-height: 24px;
     color: #ffffff;
     margin-bottom: 32px;
+}
+.structure-container{
+    text-align: center;
+    padding: 0 120px;
+    height: 448px;
+    
+}
+.structure-content {
+    height: 153px;
+}
+.structure-content h1{
+    color: #001931;
+    font-weight: 700px;
+    font-size: 48px;
+    padding-top: 50px;
+    padding-bottom: 16px;
+}
+.structure-content p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-container{
+    display: flex;    
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 44px;
+    gap: 24px;
+
+}
+.card-info{
+    align-items: center;
+    box-shadow: 0 6px 50px 0 #00000011;
+    width: 322px;
+    height: 251px;
+    padding: 24px;
+    padding-top: 69px;
+    border-radius: 8px;
+    
+    
+}
+.card-info .circle-logo{
+
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-top: 16px;
+}
+.card-info h5{
+    font-size: 24px;
+    color: #001931;
+    padding-top: 10px;
+}
+.card-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-top: 16px;
 }
 
     
