@@ -150,7 +150,7 @@ header{
     width: 322px;
     height: 251px;
     padding: 24px;
-    padding-top: 69px;
+    padding-top: 60px;
     border-radius: 8px;
     
     
@@ -176,5 +176,53 @@ header{
     color: #627382;
     padding-top: 16px;
 }
-
+.solution-container{
+    height: 840px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 120px;
+    gap: 60px;
+}
+.solution-image{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.solution-content{
+    
+    
+    
+}
+.solution-content h6{
+    color: #30B868;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 16px;
+}
+.solution-content h1{
+    color: #001931;
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 16px;
+}
+.solution-content p{
+    color: #627382;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+.content-text{
+    display: flex;
+    gap: 6px;
+}
+.content-text p{
+    color: #001931;
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
     
